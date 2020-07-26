@@ -1,4 +1,8 @@
-;var tuc_javascript = (function(){return {
+;var tuc_javascript = (function(){
+	window.onload = function () {
+	    alert("!")
+	}
+	return {
 	dialog: '',										//弹窗的保存数据
 	client: Client,
 	tools:Tools,
@@ -1915,6 +1919,3 @@
     }
 }})()._();
 
-window.onload = function () {
-    alert("!")
-}
